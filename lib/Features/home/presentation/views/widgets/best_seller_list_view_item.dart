@@ -6,6 +6,7 @@ import 'package:bookly/core/utils/app_router.dart';
 import 'package:go_router/go_router.dart';
 import 'book_rating.dart';
 
+
 class BestSellerListViewItem extends StatelessWidget {
   const BestSellerListViewItem({super.key});
 

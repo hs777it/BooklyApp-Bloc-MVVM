@@ -20,7 +20,9 @@ class BookDetailsViewBody extends StatelessWidget {
         children: [
           const CustomBookDetailsAppBar(),
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: width * .2),
+            padding: EdgeInsets.symmetric(
+              horizontal: width * .2,
+            ),
             child: const CustomBookImage(),
           ),
           const SizedBox(
@@ -29,7 +31,20 @@ class BookDetailsViewBody extends StatelessWidget {
           Text(
             'The Jungle Book',
             style: Styles.textStyle30.copyWith(
-              fontWeight: FontWeight.w600,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          const SizedBox(
+            height: 6,
+          ),
+          Opacity(
+            opacity: .7,
+            child: Text(
+              'Rudyard Kipling',
+              style: Styles.textStyle18.copyWith(
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.w500,
+              ),
             ),
           ),
         ],

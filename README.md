@@ -1,6 +1,6 @@
 # bookly
 
-BooklyApp Using Bloc and MVVM Pattern.
+A new Flutter project.
 
 ## Getting Started
 
